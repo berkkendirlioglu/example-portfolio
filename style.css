@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html .sticky-menu, body .sticky-menu {
+  padding: 10px 0 10px 0 !important;
+  background-color: #ffffff !important;
+  z-index: 99999 !important;
+}
+html .menu, body .menu {
+  z-index: 999;
+  position: relative;
+  transition: all 0.2s linear;
+}
+html .menu .container .brand:hover .fw-bold, body .menu .container .brand:hover .fw-bold {
+  transition: all 0.1s linear;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+html .menu .container .hamburger-res, body .menu .container .hamburger-res {
+  color: #000 !important;
+}
+html .menu .container .menu-list .new-menu-lists, body .menu .container .menu-list .new-menu-lists {
+  color: #000 !important;
+}
+html .menu .container .menu-list .new-menu-lists:hover, body .menu .container .menu-list .new-menu-lists:hover {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+html .menu .container .menu-list .list-items, body .menu .container .menu-list .list-items {
+  transition: all 0.1s linear;
+  color: #fff;
+}
+html .menu .container .menu-list .list-items:hover, body .menu .container .menu-list .list-items:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+html .menu .container .hamburger-menu, body .menu .container .hamburger-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 0;
+  transition: all 0.1s linear;
+}
+html .menu .container .show-hidden, body .menu .container .show-hidden {
+  height: 250px !important;
+}
+html .uniq-header, body .uniq-header {
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+html .uniq-header .full-moon, body .uniq-header .full-moon {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  z-index: 99;
+}
+html .uniq-header .full-moon img, body .uniq-header .full-moon img {
+  width: 250px;
+  height: 250px;
+  transition: all 0.1s linear;
+  animation: rotate 70s linear infinite;
+}
+html .uniq-header .stars, body .uniq-header .stars {
+  height: 100%;
+  width: 100%;
+}
+html .uniq-header .stars span, body .uniq-header .stars span {
+  border-radius: 50%;
+  pointer-events: none;
+  position: absolute;
+  background: white;
+  animation: animate 5s linear infinite;
+}
+html .uniq-header .shape, body .uniq-header .shape {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 100% 0;
+}
+html .uniq-header .container, body .uniq-header .container {
+  padding: 13.5rem 0 20rem 0;
+}
+html .uniq-header .container .content .col-6, body .uniq-header .container .content .col-6 {
+  z-index: 99;
+}
+html .services .container .services-title, body .services .container .services-title {
+  position: relative;
+}
+html .services .container .services-title .line-shape, body .services .container .services-title .line-shape {
+  width: 50%;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s linear;
+}
+html .services .container .services-title .small-line, body .services .container .services-title .small-line {
+  width: 0px;
+  height: 0px;
+}
+html .brands .container .brands-title, body .brands .container .brands-title {
+  padding: 0 0 5rem 0;
+  position: relative;
+}
+html .brands .container .brands-title .line-shape, body .brands .container .brands-title .line-shape {
+  width: 50%;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s linear;
+}
+html .brands .container .brands-title .small-line, body .brands .container .brands-title .small-line {
+  width: 0px;
+  height: 0px;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-control-prev .carousel-control-prev-icon, body .brands .container .row .col-xl-12 .carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-image: none;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-control-next .carousel-control-next-icon, body .brands .container .row .col-xl-12 .carousel .carousel-control-next .carousel-control-next-icon {
+  background-image: none;
+}
+html .brands .container .row .col-xl-12 .carousel:hover .carousel-inner .carousel-item .brands .overlay, body .brands .container .row .col-xl-12 .carousel:hover .carousel-inner .carousel-item .brands .overlay {
+  height: 100%;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands, body .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands {
+  position: relative;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands img, body .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands img {
+  width: 35%;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands .overlay, body .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands .overlay {
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  transition: all 0.1s linear;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands .overlay .overlay-parent .overlay-title, body .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands .overlay .overlay-parent .overlay-title {
+  color: #000;
+}
+html .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands .overlay .overlay-parent .overlay-body .overlay-content, body .brands .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands .overlay .overlay-parent .overlay-body .overlay-content {
+  color: #000;
+  padding: 0 10rem !important;
+}
+html .contact, body .contact {
+  position: relative;
+  z-index: 999;
+  background-image: url(/assets/ContactHero.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+html .contact .container .d-flex .forms, body .contact .container .d-flex .forms {
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 0 0 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+html .contact .container .d-flex .forms .contact-shape, body .contact .container .d-flex .forms .contact-shape {
+  position: absolute;
+  width: 120%;
+  height: 50%;
+  background-color: #0d6efd;
+  top: -35%;
+  left: -10%;
+  border-radius: 0 0 50% 50%;
+}
+html .footer-end .container .row .col-lg-3 .footer-links, html .footer-end .container .row .col-lg-2 .footer-links, body .footer-end .container .row .col-lg-3 .footer-links, body .footer-end .container .row .col-lg-2 .footer-links {
+  transition: all 0.1s linear;
+}
+html .footer-end .container .row .col-lg-3 .footer-links:hover, html .footer-end .container .row .col-lg-2 .footer-links:hover, body .footer-end .container .row .col-lg-3 .footer-links:hover, body .footer-end .container .row .col-lg-2 .footer-links:hover {
+  color: #626262 !important;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateX(-1400%) rotate(360deg);
+    opacity: 0;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    filter: drop-shadow(0 0 5px #fff);
+  }
+  50% {
+    transform: rotate(360deg);
+    filter: drop-shadow(0 0 15px #fff);
+  }
+  100% {
+    transform: rotate(0deg);
+    filter: drop-shadow(0 0 5px #fff);
+  }
+}
+@media screen and (max-width: 991px) {
+  .menu .container #hamburgerBtn {
+    color: #000 !important;
+  }
+  .uniq-header .shape {
+    width: 100% !important;
+    height: 100%;
+    border-radius: 0 !important;
+  }
+  .uniq-header .container {
+    padding: 13.5rem 0 10rem 0 !important;
+  }
+  .sect-1 .container .row .col-lg-6 .card .card-img-top i {
+    font-size: 64px !important;
+  }
+  .sect-1 .container .row .col-lg-6 .card .card-body h5 {
+    font-size: 36px;
+  }
+  .sect-1 .container .row .col-lg-6 .card .card-body p {
+    font-size: 24px;
+  }
+  .sect-1 .container .row .col-lg-6 .card .card-body a {
+    font-size: 22px;
+  }
+  .sect-2 .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands img {
+    width: 70% !important;
+    height: 10%;
+  }
+}
