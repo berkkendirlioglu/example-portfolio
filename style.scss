@@ -112,8 +112,8 @@ html, body{
             .services-title{
                 position: relative;
                 .line-shape{
-                    width: 50%;
-                    height: 3px;
+                    width: 0;
+                    height: 0px;
                     background-color: #000;
                     position: absolute;
                     top: 65%;
@@ -122,8 +122,8 @@ html, body{
                     transition: all .2s linear;
                 }
                 .small-line{
-                    width: 0px;
-                    height: 0px;
+                    width: 50%;
+                    height: 3px;
                 }
             }
         }
@@ -134,8 +134,8 @@ html, body{
                 padding: 0 0 5rem 0;
                 position: relative;
                 .line-shape{
-                    width: 50%;
-                    height: 3px;
+                    width: 0;
+                    height: 0px;
                     background-color: #000;
                     position: absolute;
                     top: 43%;
@@ -144,8 +144,8 @@ html, body{
                     transition: all .2s linear;
                 }
                 .small-line{
-                    width: 0px;
-                    height: 0px;
+                    width: 50%;
+                    height: 3px;
                 }
             }
             .row{
@@ -304,7 +304,24 @@ html, body{
     }
     .uniq-header{
         .container{
-            padding: 13.5rem 0 10rem 0!important;
+            padding: 10rem 0 10rem 0!important;
+            .content{
+                .col-6{
+                    .text-header{
+                        h2{
+                            font-size: 30px;
+                        }
+                    }
+                    .information{
+                        .text-muted{
+                            font-size: 20px;
+                        }
+                        .header-text{
+                            font-size: 24px!important;
+                        }
+                    }
+                }
+            }
         }
     }
     .sect-1{
@@ -314,18 +331,18 @@ html, body{
                     .card{
                         .card-img-top{
                             i{
-                                font-size:64px!important;
+                                font-size:48px!important;
                             }
                         }
                         .card-body{
                             h5{
-                                font-size: 36px;
+                                font-size: 30px;
                             }
                             p{
-                                font-size: 24px;
+                                font-size: 22px;
                             }
                             a{
-                                font-size: 22px;
+                                font-size: 18px;
                             }
                         }
                     }

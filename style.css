@@ -96,8 +96,8 @@ html .services .container .services-title, body .services .container .services-t
   position: relative;
 }
 html .services .container .services-title .line-shape, body .services .container .services-title .line-shape {
-  width: 50%;
-  height: 3px;
+  width: 0;
+  height: 0px;
   background-color: #000;
   position: absolute;
   top: 65%;
@@ -106,16 +106,16 @@ html .services .container .services-title .line-shape, body .services .container
   transition: all 0.2s linear;
 }
 html .services .container .services-title .small-line, body .services .container .services-title .small-line {
-  width: 0px;
-  height: 0px;
+  width: 50%;
+  height: 3px;
 }
 html .brands .container .brands-title, body .brands .container .brands-title {
   padding: 0 0 5rem 0;
   position: relative;
 }
 html .brands .container .brands-title .line-shape, body .brands .container .brands-title .line-shape {
-  width: 50%;
-  height: 3px;
+  width: 0;
+  height: 0px;
   background-color: #000;
   position: absolute;
   top: 43%;
@@ -124,8 +124,8 @@ html .brands .container .brands-title .line-shape, body .brands .container .bran
   transition: all 0.2s linear;
 }
 html .brands .container .brands-title .small-line, body .brands .container .brands-title .small-line {
-  width: 0px;
-  height: 0px;
+  width: 50%;
+  height: 3px;
 }
 html .brands .container .row .col-xl-12 .carousel .carousel-control-prev .carousel-control-prev-icon, body .brands .container .row .col-xl-12 .carousel .carousel-control-prev .carousel-control-prev-icon {
   background-image: none;
@@ -230,19 +230,28 @@ html .footer-end .container .row .col-lg-3 .footer-links:hover, html .footer-end
     border-radius: 0 !important;
   }
   .uniq-header .container {
-    padding: 13.5rem 0 10rem 0 !important;
+    padding: 10rem 0 10rem 0 !important;
+  }
+  .uniq-header .container .content .col-6 .text-header h2 {
+    font-size: 30px;
+  }
+  .uniq-header .container .content .col-6 .information .text-muted {
+    font-size: 20px;
+  }
+  .uniq-header .container .content .col-6 .information .header-text {
+    font-size: 24px !important;
   }
   .sect-1 .container .row .col-lg-6 .card .card-img-top i {
-    font-size: 64px !important;
+    font-size: 48px !important;
   }
   .sect-1 .container .row .col-lg-6 .card .card-body h5 {
-    font-size: 36px;
+    font-size: 30px;
   }
   .sect-1 .container .row .col-lg-6 .card .card-body p {
-    font-size: 24px;
+    font-size: 22px;
   }
   .sect-1 .container .row .col-lg-6 .card .card-body a {
-    font-size: 22px;
+    font-size: 18px;
   }
   .sect-2 .container .row .col-xl-12 .carousel .carousel-inner .carousel-item .brands img {
     width: 70% !important;
